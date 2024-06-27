@@ -1,0 +1,87 @@
+[
+    {
+      "username": "John",
+      "password": "yes",
+      "firstName": "John",
+      "lastName": "Doe",
+      "account": {
+        "accountId": "ACC000001",
+        "accountType": "Checking",
+        "balance": 2547.12,
+        "transactions": [
+          {
+            "date": "2024-06-20",
+            "description": "Grocery Store Purchase",
+            "amount": -125.40
+          },
+          {
+            "date": "2024-06-22",
+            "description": "Restaurant Dinner",
+            "amount": -57.80
+          },
+          {
+            "date": "2024-06-25",
+            "description": "Salary Deposit",
+            "amount": 3200.00
+          }
+        ]
+      }
+    },
+    {
+      "username": "Jane",
+      "password": "no",
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "account": {
+        "accountId": "ACC000002",
+        "accountType": "Savings",
+        "balance": 8792.35,
+        "transactions": [
+          {
+            "date": "2024-06-21",
+            "description": "Salary Deposit",
+            "amount": 4800.00
+          },
+          {
+            "date": "2024-06-24",
+            "description": "Flight Booking",
+            "amount": -1580.25
+          },
+          {
+            "date": "2024-06-26",
+            "description": "Online Shopping",
+            "amount": -214.70
+          }
+        ]
+      }
+    },
+    {
+      "username": "harshita",
+      "password": "harshita",
+      "firstName": "Harshita",
+      "lastName": "Singh",
+      "account": {
+        "accountId": "ACC000003",
+        "accountType": "Savings",
+        "balance": 11023.50,
+        "transactions": [
+          {
+            "date": "2024-06-21",
+            "description": "Salary Deposit",
+            "amount": 5000.00
+          },
+          {
+            "date": "2024-06-24",
+            "description": "Book Purchase",
+            "amount": -50.25
+          },
+          {
+            "date": "2024-06-26",
+            "description": "Gym Membership",
+            "amount": -45.00
+          }
+        ]
+      }
+    }
+  ]
+  
