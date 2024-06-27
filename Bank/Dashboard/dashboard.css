@@ -2,49 +2,48 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f9; /* Light gray background */
 }
 
 header {
-    background-color: #f0f0f0;
+    background-color: #0073e6; /* Dark blue header */
+    color: white;
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
+    width: 100%; /* Header extends across screen */
+    margin-bottom: 20px;
 }
 
 header h1 {
-    font-size: 1.5em;
-    margin: 0;
-}
-
-header p {
-    font-size: 1em;
     margin: 0;
 }
 
 nav {
-    background-color: #eee;
-    padding: 10px;
+    background-color: #004080; /* Dark blue navbar */
+    overflow: hidden;
+    width: 100%; /* Navbar extends across screen */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    justify-content: space-around;
 }
 
-nav li {
-    display: inline-block;
-    margin-right: 20px;
+nav ul li {
+    padding: 14px 20px;
 }
 
-nav a {
+nav ul li a {
+    color: white;
     text-decoration: none;
-    color: #333;
+    display: block;
 }
 
-nav a:hover {
-    color: #000;
+nav ul li a:hover {
+    background-color: #0059b3; /* Darker blue on hover */
 }
 
 main {
@@ -52,10 +51,11 @@ main {
 }
 
 section {
-    margin-bottom: 20px;
+    background-color: white;
     padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 section h2 {
@@ -66,11 +66,10 @@ section h2 {
 .account-summary ul {
     list-style: none;
     padding: 0;
-    margin: 0;
 }
 
-.account-summary li {
-    margin-bottom: 5px;
+.account-summary ul li {
+    padding: 5px 0;
 }
 
 .recent-transactions table {
@@ -82,20 +81,24 @@ section h2 {
 .recent-transactions td {
     padding: 10px;
     border: 1px solid #ddd;
+    text-align: left;
 }
 
-.recent-transactions thead {
-    background-color: #f0f0f0;
+.recent-transactions th {
+    background-color: #0073e6; /* Dark blue header in table */
+    color: white;
 }
 
-a.view-all {
-    display: block;
-    text-align: right;
-    margin-top: 10px;
+.recent-transactions tbody tr:nth-child(even) {
+    background-color: #f4f4f9; /* Alternate row background */
 }
 
 footer {
-    background-color: #f0f0f0;
-    padding: 10px;
+    background-color: #0073e6; /* Dark blue footer */
+    color: white;
     text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }

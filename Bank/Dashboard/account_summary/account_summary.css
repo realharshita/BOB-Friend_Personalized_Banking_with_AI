@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0073e6;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav {
+    background-color: #004080;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    padding: 14px 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    background-color: #0059b3;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .account-summary, .recent-transactions {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .account-summary ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .account-summary ul li {
+    padding: 5px 0;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table th {
+    background-color: #0073e6;
+    color: white;
+  }
+  
+  table tbody tr:nth-child(even) {
+    background-color: #f4f4f9;
+  }
+  
+  footer {
+    background-color: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
