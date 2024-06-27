@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOB Netbanking Login</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+    <header>
+        <img src="bank_logo.png" alt="Bank Logo">
+        <h1>BOB Netbanking Login</h1>
+    </header>
+    <main>
+        <form id="login-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <button type="submit">Login</button>
+            <a href="#">Forgot Password?</a>
+        </form>
+        <p id="message"></p>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bank of Baroda</p>
+    </footer>
+    <script src="bank.js"></script>
+</body>
+</html>
