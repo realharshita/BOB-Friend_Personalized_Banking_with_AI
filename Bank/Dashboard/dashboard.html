@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BOB Netbanking Dashboard</title>
   <link rel="stylesheet" href="dashboard.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
   <header>
@@ -48,6 +49,16 @@
       <a href="#">View All Transactions</a>
     </section>
 
+    <section class="spending-chart">
+      <h2>Spending Overview</h2>
+      <canvas id="spendingChart" width="400" height="400"></canvas>
+    </section>
+    
+    <section class="currency-rates">
+      <h2>Currency Exchange Rates</h2>
+      <div id="currencyRates"></div>
+    </section>
+
     <div id="chatbot-container">
       <button id="chatbot-button">Chat with us</button>
       <div id="chatbot-frame" style="display: none;">
@@ -56,11 +67,6 @@
         <button id="chatbot-send">Send</button>
       </div>
     </div>
-    
-
-  <script src="chatbot.js"></script>
-      
-
   </main>
   <footer>
     <p>&copy; 2024 Bank of Baroda</p>
