@@ -28,36 +28,3 @@ document.addEventListener('DOMContentLoaded', () => {
     window.location.href = '../Login/login.html';
   });
 });
-document.addEventListener('DOMContentLoaded', () => {
-  const chatbotToggle = document.getElementById('chatbot-toggle');
-  const chatbotWindow = document.getElementById('chatbot-window');
-
-  chatbotToggle.addEventListener('click', () => {
-      chatbotWindow.style.display = chatbotWindow.style.display === 'block' ? 'none' : 'block';
-  });
-
-document.addEventListener('DOMContentLoaded', () => {
-  const chatbotToggle = document.getElementById('chatbot-toggle');
-  const chatbotWindow = document.getElementById('chatbot-window');
-
-  chatbotToggle.addEventListener('click', () => {
-    chatbotWindow.style.display = chatbotWindow.style.display === 'block' ? 'none' : 'block';
-  });
-
-
-  const openaiChatFrame = document.createElement('iframe');
-  openaiChatFrame.id = 'openai-chat';
-  openaiChatFrame.src = 'https://your-openai-chat-url'; 
-  openaiChatFrame.style.width = '100%';
-  openaiChatFrame.style.height = '100%';
-  openaiChatFrame.style.border = 'none';
-  chatbotWindow.appendChild(openaiChatFrame);
-});
-
-  const openaiChatFrame = document.createElement('iframe');
-  openaiChatFrame.id = 'openai-chat';
-  openaiChatFrame.src = 'https://your-openai-chat-url';
-  openaiChatFrame.style.width = '100%';
-  openaiChatFrame.style.height = '100%';
-  chatbotWindow.appendChild(openaiChatFrame);
-});
