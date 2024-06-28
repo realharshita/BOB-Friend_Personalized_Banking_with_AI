@@ -1,87 +1,271 @@
 [
-    {
-      "username": "John",
-      "password": "yes",
-      "firstName": "John",
-      "lastName": "Doe",
-      "account": {
-        "accountId": "ACC000001",
-        "accountType": "Checking",
-        "balance": 2547.12,
-        "transactions": [
-          {
-            "date": "2024-06-20",
-            "description": "Grocery Store Purchase",
-            "amount": -125.40
-          },
-          {
-            "date": "2024-06-22",
-            "description": "Restaurant Dinner",
-            "amount": -57.80
-          },
-          {
-            "date": "2024-06-25",
-            "description": "Salary Deposit",
-            "amount": 3200.00
-          }
-        ]
-      }
-    },
-    {
-      "username": "Jane",
-      "password": "no",
-      "firstName": "Jane",
-      "lastName": "Smith",
-      "account": {
-        "accountId": "ACC000002",
-        "accountType": "Savings",
-        "balance": 8792.35,
-        "transactions": [
-          {
-            "date": "2024-06-21",
-            "description": "Salary Deposit",
-            "amount": 4800.00
-          },
-          {
-            "date": "2024-06-24",
-            "description": "Flight Booking",
-            "amount": -1580.25
-          },
-          {
-            "date": "2024-06-26",
-            "description": "Online Shopping",
-            "amount": -214.70
-          }
-        ]
-      }
-    },
-    {
-      "username": "harshita",
-      "password": "harshita",
-      "firstName": "Harshita",
-      "lastName": "Singh",
-      "account": {
-        "accountId": "ACC000003",
-        "accountType": "Savings",
-        "balance": 11023.50,
-        "transactions": [
-          {
-            "date": "2024-06-21",
-            "description": "Salary Deposit",
-            "amount": 5000.00
-          },
-          {
-            "date": "2024-06-24",
-            "description": "Book Purchase",
-            "amount": -50.25
-          },
-          {
-            "date": "2024-06-26",
-            "description": "Gym Membership",
-            "amount": -45.00
-          }
-        ]
-      }
+  {
+    "username": "John",
+    "password": "yes",
+    "firstName": "John",
+    "lastName": "Doe",
+    "address": "123 Elm Street",
+    "phoneNumber": "123-456-7890",
+    "email": "john.doe@example.com",
+    "panNumber": "ABCDE1234F",
+    "account": {
+      "accountId": "ACC000001",
+      "accountType": "Checking",
+      "balance": 2547.12,
+      "transactions": [
+        {
+          "date": "2024-06-20",
+          "description": "Grocery Store Purchase",
+          "amount": -125.40,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-06-22",
+          "description": "Restaurant Dinner",
+          "amount": -57.80,
+          "category": "Dining"
+        },
+        {
+          "date": "2024-06-25",
+          "description": "Salary Deposit",
+          "amount": 3200.00,
+          "category": "Income"
+        },
+        {
+          "date": "2024-06-27",
+          "description": "Electricity Bill",
+          "amount": -90.00,
+          "category": "Utilities"
+        },
+        {
+          "date": "2024-06-28",
+          "description": "Movie Tickets",
+          "amount": -30.00,
+          "category": "Entertainment"
+        },
+        {
+          "date": "2024-06-29",
+          "description": "Amazon Purchase",
+          "amount": -200.00,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-06-30",
+          "description": "Bus Ticket",
+          "amount": -15.00,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-07-01",
+          "description": "Gym Membership",
+          "amount": -45.00,
+          "category": "Health"
+        },
+        {
+          "date": "2024-07-02",
+          "description": "Coffee",
+          "amount": -5.00,
+          "category": "Dining"
+        },
+        {
+          "date": "2024-07-03",
+          "description": "Book Purchase",
+          "amount": -25.00,
+          "category": "Education"
+        },
+        {
+          "date": "2024-07-04",
+          "description": "Spotify Subscription",
+          "amount": -10.00,
+          "category": "Entertainment"
+        },
+        {
+          "date": "2024-07-05",
+          "description": "Petrol",
+          "amount": -50.00,
+          "category": "Transport"
+        }
+      ]
     }
-  ]
-  
+  },
+  {
+    "username": "Jane",
+    "password": "no",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "address": "456 Maple Avenue",
+    "phoneNumber": "987-654-3210",
+    "email": "jane.smith@example.com",
+    "panNumber": "FGHIJ5678K",
+    "account": {
+      "accountId": "ACC000002",
+      "accountType": "Savings",
+      "balance": 8792.35,
+      "transactions": [
+        {
+          "date": "2024-06-21",
+          "description": "Salary Deposit",
+          "amount": 4800.00,
+          "category": "Income"
+        },
+        {
+          "date": "2024-06-24",
+          "description": "Flight Booking",
+          "amount": -1580.25,
+          "category": "Travel"
+        },
+        {
+          "date": "2024-06-26",
+          "description": "Online Shopping",
+          "amount": -214.70,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-06-27",
+          "description": "Grocery Store Purchase",
+          "amount": -150.00,
+          "category": "Groceries"
+        },
+        {
+          "date": "2024-06-28",
+          "description": "Gym Membership",
+          "amount": -50.00,
+          "category": "Health"
+        },
+        {
+          "date": "2024-06-29",
+          "description": "Coffee",
+          "amount": -5.00,
+          "category": "Dining"
+        },
+        {
+          "date": "2024-06-30",
+          "description": "Electricity Bill",
+          "amount": -100.00,
+          "category": "Utilities"
+        },
+        {
+          "date": "2024-07-01",
+          "description": "Restaurant Dinner",
+          "amount": -75.00,
+          "category": "Dining"
+        },
+        {
+          "date": "2024-07-02",
+          "description": "Spotify Subscription",
+          "amount": -10.00,
+          "category": "Entertainment"
+        },
+        {
+          "date": "2024-07-03",
+          "description": "Petrol",
+          "amount": -60.00,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-07-04",
+          "description": "Book Purchase",
+          "amount": -20.00,
+          "category": "Education"
+        },
+        {
+          "date": "2024-07-05",
+          "description": "Amazon Purchase",
+          "amount": -250.00,
+          "category": "Shopping"
+        }
+      ]
+    }
+  },
+  {
+    "username": "harshita",
+    "password": "harshita",
+    "firstName": "Harshita",
+    "lastName": "Singh",
+    "address": "789 Oak Lane",
+    "phoneNumber": "555-123-4567",
+    "email": "harshita.singh@example.com",
+    "panNumber": "KLMNO9012P",
+    "account": {
+      "accountId": "ACC000003",
+      "accountType": "Savings",
+      "balance": 11023.50,
+      "transactions": [
+        {
+          "date": "2024-06-21",
+          "description": "Salary Deposit",
+          "amount": 5000.00,
+          "category": "Income"
+        },
+        {
+          "date": "2024-06-24",
+          "description": "Book Purchase",
+          "amount": -50.25,
+          "category": "Education"
+        },
+        {
+          "date": "2024-06-26",
+          "description": "Gym Membership",
+          "amount": -45.00,
+          "category": "Health"
+        },
+        {
+          "date": "2024-06-27",
+          "description": "Restaurant Dinner",
+          "amount": -60.00,
+          "category": "Dining"
+        },
+        {
+          "date": "2024-06-28",
+          "description": "Electricity Bill",
+          "amount": -95.00,
+          "category": "Utilities"
+        },
+        {
+          "date": "2024-06-29",
+          "description": "Online Shopping",
+          "amount": -200.00,
+          "category": "Shopping"
+        },
+        {
+          "date": "2024-06-30",
+          "description": "Bus Ticket",
+          "amount": -15.00,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-07-01",
+          "description": "Movie Tickets",
+          "amount": -20.00,
+          "category": "Entertainment"
+        },
+        {
+          "date": "2024-07-02",
+          "description": "Coffee",
+          "amount": -10.00,
+          "category": "Dining"
+        },
+        {
+          "date": "2024-07-03",
+          "description": "Spotify Subscription",
+          "amount": -10.00,
+          "category": "Entertainment"
+        },
+        {
+          "date": "2024-07-04",
+          "description": "Petrol",
+          "amount": -50.00,
+          "category": "Transport"
+        },
+        {
+          "date": "2024-07-05",
+          "description": "Grocery Store Purchase",
+          "amount": -125.00,
+          "category": "Groceries"
+        }
+      ]
+    }
+  }
+]
+
+

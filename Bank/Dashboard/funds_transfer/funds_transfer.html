@@ -3,53 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Account Summary</title>
+  <title>Funds Transfer</title>
   <link rel="stylesheet" href="funds_transfer.css">
 </head>
 <body>
   <header>
-    <h1>Account Summary</h1>
-    <p>Welcome, <span id="user-name">[User Name]</span></p>
+    <h1>Funds Transfer</h1>
   </header>
   <nav>
     <ul>
-      <li><a href="../dashboard.html">Dashboard</a></li>
+      <li><a href="/Bank/Dashboard/account_summary/account_summary.html">Account Summary</a></li>
       <li><a href="../transactions/transactions.html">Transactions</a></li>
       <li><a href="../funds_transfer/funds_transfer.html">Funds Transfer</a></li>
       <li><a href="../bill_payments/bill_payments.html">Bill Payments</a></li>
       <li><a href="../investments/investments.html">Investments</a></li>
       <li><a href="../profile_and_settings/profile_and_settings.html">Profile & Settings</a></li>
-      <li><a href="#" id="logout">Logout</a></li>
     </ul>
   </nav>
   <main>
-    <section class="account-summary">
-      <h2>Your Account</h2>
-      <ul>
-        <li>Account Number: <span id="account-number">[Account Number]</span></li>
-        <li>Available Balance: <span id="available-balance">[Available Balance]</span></li>
-        <li id="account-type">Savings Account</li>
-      </ul>
-      <a href="#">View Details</a>
-    </section>
-    <section class="recent-transactions">
-      <h2>Recent Transactions</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>Date</th>
-            <th>Description</th>
-            <th>Amount</th>
-          </tr>
-        </thead>
-        <tbody id="transactions-body">
-        </tbody>
-      </table>
-      <a href="#">View All Transactions</a>
+    <section class="transfer-form">
+      <h2>Transfer Funds</h2>
+      <form id="transfer-form">
+        <label for="to-account">To Account Number:</label>
+        <input type="text" id="to-account" name="to-account" required><br><br>
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" step="0.01" required><br><br>
+        <button type="submit">Transfer</button>
+      </form>
     </section>
   </main>
   <footer>
-    <p>&copy; 2024 Bank of Innovation</p>
+    <p>&copy; 2024 Bank of Baroda</p>
   </footer>
   <script src="funds_transfer.js"></script>
 </body>
